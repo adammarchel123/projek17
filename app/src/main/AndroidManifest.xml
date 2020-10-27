@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.doa">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="landscape"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".DoaSebelumBelajar"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".DoaTerkenaMusibah"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".DoaMemakaiPakaian"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".DoaMasukRumah"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".DoaNaikKendaraan"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".DoaKeluarRumah"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".DoaUntukKeduaOrangtua"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".DoaBangunTidur"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".DoaSebelumTidur"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MainActivity2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Doa"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".KuisPilihanGanda"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".KuisEssay"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".HasilSkoring"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ContohFinalProjectKuis"
+            android:screenOrientation="landscape" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

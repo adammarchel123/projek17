@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/papan_6"
+    tools:context=".MainActivity2">
+
+    <RelativeLayout
+        android:paddingBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieAnimationView"
+            android:layout_width="500dp"
+            android:layout_height="500dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/birds" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieAnimationView3"
+            android:layout_width="500dp"
+            android:layout_height="500dp"
+            android:layout_alignParentRight="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/birds" />
+
+
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <LinearLayout
+                android:id="@+id/linear"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="15dp">
+
+                <ImageButton
+                    android:id="@+id/pap1"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/a1" />
+
+                <ImageButton
+                    android:id="@+id/pap2"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/a2" />
+
+                <ImageButton
+                    android:id="@+id/pap3"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/a3" />
+
+                <ImageButton
+                    android:id="@+id/pap4"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/a4" />
+
+                <ImageButton
+                    android:id="@+id/pap5"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/a5" />
+
+                <ImageButton
+                    android:id="@+id/pap6"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/a6" />
+
+                <ImageButton
+                    android:id="@+id/pap7"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/a7" />
+
+                <ImageButton
+                    android:id="@+id/pap8"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/a8" />
+
+                <ImageButton
+                    android:id="@+id/pap9"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/a9" />
+
+
+            </LinearLayout>
+
+
+        </HorizontalScrollView>
+        <ImageButton
+            android:id="@+id/home4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/home_1"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="30dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
